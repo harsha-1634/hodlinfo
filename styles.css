@@ -1,0 +1,208 @@
+body{
+    background-color: #61677A;
+    font-family: fantasy;
+}
+.heading
+{
+    color: aquamarine;
+    font-size: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.top
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mid
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.bott
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding-left: -30px; */
+    margin-left: -50px;
+}
+
+.dropdown
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: white;
+}
+.dropdown1
+{
+    padding-right: 5px;
+}
+.dropdown3
+{
+    padding-left: 5px;
+}
+select
+{
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(47, 58, 61);
+}
+.buy
+{
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(47, 58, 61);
+}
+.telegram_button
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tele
+{
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(0, 116, 116); 
+    
+}
+.telegram_logo
+{
+    height:20px;
+    width: 20px;
+    
+}
+.tele_font{
+    display: inline;
+    font-weight: bold;
+    
+}
+option
+{
+    background-color: aliceblue;
+    color: black;
+}
+.per
+{
+    color: aqua;
+    font-size: 25px;
+    margin-bottom: -15px;
+}
+.time
+{
+    color: black;
+}
+.tot
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-top: -10px   ;
+}
+.bottom_each
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:gray;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.cwhite
+{
+    color: white;
+    font-size: 25px;
+}
+.rb
+{
+    color: red;
+    font-size: 25px;
+}
+.b1
+{
+    padding-left: -20px;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #828384;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #828384;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.toggle
+{
+    padding-left: 10px;
+    
+}
